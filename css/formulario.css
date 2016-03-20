@@ -1,0 +1,46 @@
+
+body {
+	background-color: white;
+}
+
+.formulario {
+/*border:1px dashed red;*/
+width: 1300px;
+height:350px;
+margin:auto;
+background-color: #0A0A07;
+border-radius: 41px;
+color:#FAFAFA;
+font-style: inherit;
+margin-top: auto;
+font-size:1.5em;
+margin-bottom: 2px;
+}
+
+.formulario h1 {
+
+font-family: arial;
+color:#FAFAFA;
+text-align: center;
+box-shadow: none;
+background-color: #FB5E11;
+}
+
+
+
+a{
+	color:white;
+
+}
+a:hover{
+	color:#FF8040;
+}
+
+
+.container {
+
+
+	width: 1000px;
+	height: 1000px;
+	background-color: white;
+}

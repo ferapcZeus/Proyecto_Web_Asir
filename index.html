@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 2</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/nopulses.js"> </script>
+	<script src="js/juego222.js"> </script>
+
+
+</head>
+<body>
+<!-- ................................................................................................................................ -->
+
+	<nav id="cont_nav">
+		
+		<h4 > Fernando Acosta Pérez-Cardona </h4>
+		
+	<ul id="listamenu">
+
+	   <!-- <a href="formulario.html"><li id="accesoformu"> Menú 1</li> </a>  -->
+ 		<!--<a href="Javascript-Ejercicios"> <li>|Menú 2|</li> </a> -->
+		<!-- <a href="#"><li>|Menú 3|</li> </a> -->
+	    <a href="formulario.html"><li>|Formulario Contacto|</li> </a>
+	 </ul>
+	 <a href="mailto:tu@tuemail.com"><p id="email"> www.Fer-Html5/Css3/JavaScript.com</p></a>
+
+</nav>
+
+ 	<header>
+ 		<hgroup>
+			<h1 onclick="paquepulsas()";> ZONA SECRETA ...NO PULSES AQUI</h1>
+			<h2>Una selección de Imagenes</h2>
+		</hgroup>
+		
+	</header>
+
+<!-- ................................................................................................................................ -->
+	
+<aside id="aside">
+	
+<p> Juega a Mi Juego <p>
+<img  src="imagenes/juego.jpg" alt="ppt"width:"100px" height="80">
+<img id="gifjuego" src="imagenes/juega.gif" alt="juega"width:"150px" height="150" onclick="juegoppt()">
+
+</aside>
+
+
+
+	<section> 
+
+			<figure>
+				<img src="imagenes/1.jpg" alt="morrison"width:"200px" height="200">
+					<figcaption>Foto 1: The Dorrs</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/2.jpg" alt="Kobain"width:"200px" height="200">
+					<figcaption>Foto 2: Nirvana</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/3.jpg" alt="Bono"width:"200px" height="200">
+					<figcaption>Foto 3: U2 </figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/4.jpg" alt="Ali"width:"200px" height="200">
+					<figcaption>Foto 4: Muhammed Ali</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/5.jpg" alt="Maui"width:"200px" height="200">
+						<figcaption>Foto 5: Maui Sons</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/6.jpg" alt="Stones"width:"400px" height="200">
+					<figcaption>Foto 6: The Rolling Stones</figcaption>
+			</figure>
+			
+	</section>	
+	
+<div class="formulario">
+			<h1>Formulario</h1>
+			<FORM ACTION="http://miserver.midominio.mipais/cgi-bin/test2-cgi" METHOD=POST>
+
+					<CENTER>
+
+
+			<TABLE BORDER>
+
+			<TR>
+			   <TD>Nombre:</TD>
+			   <TD> <INPUT TYPE="text" NAME="nombre" SIZE=18 MAXLENGTH=18> F.Nac.:
+			        <INPUT TYPE="text" NAME="edad" SIZE=8 MAXLENGTH=8> DNI: 
+			        <INPUT TYPE="text" NAME="dni" SIZE=8 MAXLENGTH=8></TD>
+
+			<TR>
+			   <TD>Apellidos:</TD>
+			   <TD> <INPUT TYPE="text" NAME="apellidos" SIZE=48 MAXLENGTH=48></TD>
+
+			<TR>
+			   <TD>Calle y número:</TD>
+			   <TD> <INPUT TYPE="text" NAME="domicilio" SIZE=48 MAXLENGTH=48></TD>
+
+			<TR>
+			  <TD>Código Postal:</TD>
+			  <TD> <INPUT TYPE="text" NAME="postal" SIZE=5 MAXLENGTH=5>Ciudad:
+			       <INPUT TYPE="text" NAME="localidad" SIZE=36 MAXLENGTH=36></TD>
+
+			<TR>
+			   <TD>Provincia: </TD>
+			   <TD> <INPUT TYPE="text" NAME="provincia" SIZE=20 MAXLENGTH=20>Teléfono: 
+			         <INPUT TYPE="text" NAME="telefono" SIZE=19 MAXLENGTH=19></TD>
+
+			<TR>
+			   <TD>Opción:</TD>
+			   <TD> <SELECT NAME="OPCION">
+			            <OPTION>OPCION 1
+			            <OPTION>OPCION 2
+			            <OPTION>OPCION 3
+			            <OPTION>OPCION 4
+			            <OPTION>OPCION 5
+
+			        </SELECT>Escoja una opción</TD>
+
+			<TR>
+			   <TD>Comentarios<BR> personales:</TD>
+			   <TD> <TEXTAREA NAME="coment" ROWS=2 COLS=48></TEXTAREA></TD>
+
+			<TR>
+			   <TD><B>Pulse aquí:</B></TD>
+			   <TD ALIGN=CENTER>
+			       <INPUT TYPE="submit" VALUE="Enviar datos ">
+			       <INPUT TYPE="reset" VALUE="Borrar los datos"></TD>
+
+			</TABLE>
+			</CENTER>
+			</FORM>
+					</div>
+	
+
+	<footer>
+		<p>Web Realizada 2014. Fernando Acosta Pérez-Cardona</p>
+	</footer>
+
+</body>
+</html>
+

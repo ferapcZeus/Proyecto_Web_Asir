@@ -1,0 +1,187 @@
+body {
+	font-size: 62.4%;
+	background-color:#FFFFFF
+}
+
+h1 {
+
+font: normal 2.4em Verdana,Geneva,Sans-serif;
+background: transform-linear-gradient (top #0000A0, #00FFFF);
+background-color: #272822;
+width: 35%;
+border-radius: 10px;
+margin:15px auto;
+text-align: center;
+padding:15px;
+color:#FEFEFE;
+box-shadow: #808080 9px 9px 10px;
+text-shadow: #FCFCFC 2px 2px 5px;
+
+
+}
+
+h2 {
+
+font:bold 1.7em Verdana, Geneva, Sans-serif;
+padding:5px 0 5px 0px;
+color:#FF8040;
+text-align: center;
+}
+
+
+
+#cont_nav {
+width: 100%;
+height: 50px;
+border: 1px dashed blue;
+margin-top: 0px;
+background-color: #000000;
+
+
+
+}
+
+#listamenu  {
+
+
+	text-align: center;
+	margin:auto;
+	color:white;
+}
+
+#listamenu li {
+
+	display:inline;
+	text-align: center;
+	margin:auto;
+	font:bold 1.7em Verdana, Geneva, Sans-serif;
+	
+}
+#email {
+
+float:right;
+font-size: 2em;
+margin:15px;
+margin-top: -20px;
+color:white;
+
+
+}
+
+
+#aside {
+	position: relative;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 30%;
+	width: 18%;
+	height: 500px;
+	background-color: #FF5C0F;
+	margin-bottom: 10px;
+
+}
+#aside p{
+
+    font:bold 1.5em Verdana, Geneva, Sans-serif;
+	text-align:center;
+	color:#FEFEFE;
+	margin-top:30px;
+    text-shadow: #FCFCFC 1px 1px 5px;
+}
+#gifjuego{
+
+margin-top: 50px;
+box-shadow: #808080 10px 5px 5px;
+border-radius: 20px;
+
+
+} 
+section {
+width:91%;
+border-top:1px dashed #FF8040;
+margin:15px auto;
+
+}
+
+figure {
+
+	float:left;
+}
+
+figure img {
+
+border-radius:25px;
+box-shadow: #808080 10px 5px 5px;
+-webkit-transition: transform 0.3s ease-in-out 0.1s;
+-o-transition: transform 0.3s ease-in-out 0.1s;
+ transition: transform 0.5s ease-in-out 0.1s;
+
+ 
+
+
+}
+
+figure img:hover{
+           /* tranformamos el elemento al pasar el ratón por encima al 
+            tamaño con scale(1.5). */
+       	 transform : scale(1.5);
+        -moz-transform : scale(1.5);      /* Firefox */
+        -webkit-transform : scale(1.5);   /* Chrome - Safari */
+        -o-transform : scale(1.5);        /* Opera */
+   
+}
+
+figcaption {
+font-family: Arial, Helvetica, Sans-serif;
+font-size:1.3em;
+text-align: center;
+margin-top: 5px;
+
+}
+footer{
+	clear:both;
+	padding-top: 100px;
+
+}
+footer p{
+
+	font: 1.6em  Georgia,Verdana,Sans-serif;
+	color:#808080;
+	margin-top: 1px;
+	text-align: center;
+}
+
+
+.formulario {
+/*border:1px dashed red;*/
+width: 1300px;
+height:350px;
+margin:600px auto;
+background-color: #0A0A07;
+border-radius: 41px;
+color:#FAFAFA;
+font-style: inherit;
+margin-top: 550px;
+font-size:1.5em;
+margin-bottom: 2px;
+}
+
+.formulario h1 {
+
+font-family: arial;
+color:#FAFAFA;
+text-align: center;
+box-shadow: none;
+background-color: #FB5E11
+}
+
+
+
+a{
+	color:white;
+
+}
+a:hover{
+	color:#FF8040;
+}
